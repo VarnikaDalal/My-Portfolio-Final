@@ -1,0 +1,67 @@
+h1{
+  color:white;
+  font-variant: small-caps;
+  font-size: 15mm;
+  font-weight: lighter;
+    }
+h2{
+   text-align: center;
+   color:white;
+   font-variant: small-caps;
+   font-weight: lighter;}
+  
+ .header{
+     background-color:cadetblue;
+     display: flex;
+     justify-content:center;
+ }
+ .menu p{
+     display:inline;
+     margin: 20px;
+     padding:20px;
+ }
+
+ a{
+    color: white;
+ }
+
+ a:visited{
+     color:black;
+ }
+
+ .grid{
+     display: flex;
+     justify-content:space-evenly;
+     border-color: white;
+ }
+ .item{
+    border-color: white;
+    font-variant: small-caps;
+    font-weight: lighter;
+    color: white;
+ }
+
+ .item:hover p{
+     color:blueviolet;
+     opacity: 0;
+
+ }
+
+ .item p{
+     position:relative;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+ .footer{
+     display:flex;
+     justify-content:center;  
+     border-color: white;
+     
+ }
+
+ body{
+     background-color:cadetblue;
+ }
+
+ 
+            
